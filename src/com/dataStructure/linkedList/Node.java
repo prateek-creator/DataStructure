@@ -7,4 +7,10 @@ public class Node {
         this.data =data;
         this.next=null;
     }
+    public static void printList(Node head){
+        while(head!=null){
+            System.out.print(head.data+" ");
+            head=head.next;
+        }
+    }
 }
