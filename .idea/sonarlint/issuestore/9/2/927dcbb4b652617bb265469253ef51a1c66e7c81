@@ -1,7 +1,0 @@
-
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÈÑÊ8Ä Å†2J$6916a00a-9058-448d-9fcb-19fcd86265f5
-˜
-java:S1104"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ8Ä Å†2J$10b2e26f-0c7b-4a7a-9843-fc17a5d1633b
-˜
-java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ8Ä Å†2J$37303515-c544-46f3-9383-14c2c6c9f9c2
-L	java:S106"+Replace this use of System.out by a logger.(ìé•±ùÿÿÿÿ8Š‚Å†2
