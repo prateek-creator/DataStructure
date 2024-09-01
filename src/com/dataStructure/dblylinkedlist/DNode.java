@@ -74,5 +74,24 @@ public class DNode {
         }
         return temp.prev;
     }
+    public static DNode removeHead(DNode head){
+        if(head==null || head.next==null){
+            return null;
+        }
+        head=head.next;
+        head.prev=null;
+        return head;
+    }
+    public static DNode removeTail(DNode head){
+        if(head==null || head.next==null){
+            return null;
+        }
+        DNode curr=head;
+        while(curr.next!=null){
+            curr=curr.next;
+        }
+        curr.prev.next=null;
+        return head;
+    }
 
 }
